@@ -1,3 +1,8 @@
+*.iml
+target/
+*.class
+*.jar
+.idea/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
