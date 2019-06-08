@@ -43,8 +43,10 @@ public class PlayerFactory {
 
 class SpecialForce implements IPlayer {
 
+    //intrinsic property
     private String TASK;
 
+    //extrinsic property: this should not reside or be stored in the object
     private String weapon;
 
     public SpecialForce() {
@@ -66,8 +68,10 @@ class SpecialForce implements IPlayer {
 
 class Terrorist implements IPlayer {
 
+    //intrinsic property
     private String TASK;
 
+    //extrinsic property: this should not reside or be stored in the object
     private String weapon;
 
     public Terrorist() {
