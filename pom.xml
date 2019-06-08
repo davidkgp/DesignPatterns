@@ -6,7 +6,22 @@
 
     <groupId>com.test.patterns</groupId>
     <artifactId>DesignPatterns</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.11</java.version>
+        <maven.compiler.source>1.11</maven.compiler.source>
+        <maven.compiler.target>1.11</maven.compiler.target>
+    </properties>
+
+
+    <modules>
+        <module>structural-pattern</module>
+    </modules>
 
 
 </project>
