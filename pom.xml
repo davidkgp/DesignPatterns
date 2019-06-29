@@ -21,6 +21,7 @@
 
     <modules>
         <module>structural-pattern</module>
+        <module>creational-pattern</module>
     </modules>
 
 
